@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Serif&display=swap" rel="stylesheet">
+    
+    <title>ENCUESTA SKINK</title>
+</head>
+<body>
+    <header><button class="icono" onclick="window.location.href='index.html';"><img class="icon" src="imagenes/casa.png" alt=""></button></header>
+    <div class="form">
+    <h1>ENCUESTA</h1>
+    <form action="">
+           
+                <div class="question question1"question >
+                    <label for="question1">¿Sientes tu piel tirante o con sencasion desequedad, especialmente despues de lavarla?</label>
+                        <div class="answer">
+                            <div class="yes">
+                                <input type="radio" id="question1-yes" name="question1" value="yes" onclick="responder('seca')">
+                                <p for="question1-yes">Si</p>
+                            </div>
+
+                            <div class="no">
+                                <input type="radio" id="question1-no" name="question1" value="no">
+                                <p for="question1-no">No</p>
+                            </div>
+                        </div>
+                </div>
+    
+               <div class="question question2">
+                    <label for="question2">¿Tienes la piel brillante, especialmente en las zonas(frente, nariz y barbilla)?</label>
+                        <div class="answer">
+                            <div class="yes">
+                                <input type="radio" id="question2-yes" name="question2" value="yes" onclick="responder('grasa')">
+                                <p for="question2-yes">Si</p>
+                            </div>
+
+                            <div class="no">
+                                <input type="radio" id="question2-no" name="question2" value="no">
+                            <p for="question2-no">No</p>
+                            </div>
+                        </div>
+               </div>
+                
+                <div class="question question3">
+                    <label for="question3">¿Observas poros dilatados en tu rostro?</label>
+                        <div class="answer">
+                            <div class="yes">
+                                <input type="radio" id="question3-yes" name="question3" value="yes"onclick="responder('grasa')">
+                                <p for="question3-yes">Si</p>
+                            </div>
+
+                            <div class="no">
+                                <input type="radio" id="question3-no" name="question3" value="no">
+                            <p for="question3-no">No</p>
+                            </div> 
+                        </div>
+                </div>
+
+                <div class="question question4">
+                    <label for="question4">¿Sueles tener granitos, espinillas o puntos negros?</label>
+                        <div class="answer">
+                            <div class="yes">
+                                <input type="radio" id="question4-yes" name="question4" value="yes"onclick="responder('grasa')">
+                                <p for="question4-yes">Si</p>
+                            </div>
+
+                            <div class="no">
+                                <input type="radio" id="question4-no" name="question4" value="no">
+                                <p for="question4-no">No</p>
+                            </div>
+                        </div>
+                </div>
+    
+                <div class="question question5">
+                    <label for="question5">¿Tu piel se enrojece facilmente o se irrita con facilidad?</label>
+                        <div class="answer">
+                            <div class="yes">
+                                <input type="radio" id="question5-yes" name="question5" value="yes" onclick="responder('sensible')">
+                                <p for="question5-yes">Si</p>
+                            </div>
+
+                            <div class="no">
+                                <input type="radio" id="question5-no" name="question5" value="no">
+                                <p for="question5-no">No</p>
+                            </div>
+                        </div>
+                </div>
+    
+                <div class="question question6">
+                    <label for="question6">¿Tienes zonas escamosas o descamacion de tu piel?</label>
+                        <div class="answer">
+                            <div class="yes">
+                                <input type="radio" id="question6-yes" name="question6" value="yes" onclick="responder('seca')">
+                                <p for="question6-yes">Si</p>
+                            </div>
+
+                            <div class="no">
+                                <input type="radio" id="question6-no" name="question6" value="no">
+                                <p for="question6-no">No</p>
+                            </div>
+                        </div>
+                </div>
+                
+
+            
+    </form>   
+    <button type="submit" onclick="obtenerRecomendaciones()" >FINALIZAR</button>   
+</div>
+
+<div class="img">
+    <img src="imagenes/face2.png" alt="">
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>

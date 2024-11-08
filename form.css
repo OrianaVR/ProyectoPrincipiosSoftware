@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: poppins, sans-serif;
+    background-color: #e9e7e1;
+    border: #8b3f3f solid 20px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    min-width: 100vh;
+    min-height: 100vh;
+    
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    min-width: 30px;
+    min-height: 30px;
+}
+.img {
+    width: 50%;
+    height: 100vh;
+    margin: 40px 0 40px 50px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    min-width: 100px;
+    min-height: 100px;
+}
+
+
+.form {
+    padding: 30px 50px 30px 100px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 ;
+    color: #261A03;
+}
+form {
+    background-color: #af7f6371;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #080601;
+    font-size: 18px;
+}
+.form h1 {
+    font-size: 4em;
+    margin-bottom: 10px;
+    font-family: Inria serif;
+
+}
+.form label {
+    display: block;
+    margin-bottom: 10px;
+    background-color:#e6e5e5;
+    border-radius: 10px;
+}
+.question label {
+    padding: 10px;
+}
+.question{
+    margin-bottom: 20px;
+}
+
+.answer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.answer div{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+    width: 20px;
+}
+.answer p{
+    font-size: 1.2em;
+    font-family: poppins, sans-serif;
+    color: #080601;
+}
+
+button {
+    background-color: #8b3f3f;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-size: 1.0em;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    margin-top: 20px;
+    color: white;
+    margin-left: 20px;
+    font-family: poppins, sans-serif;
+}
+button:hover {
+    background-color: #8b3f3f;
+    color: white;
+    transform: scale(1.1);
+}
+
